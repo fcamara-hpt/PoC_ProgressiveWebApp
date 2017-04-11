@@ -45,25 +45,37 @@ Mais algumas informaçes sobre pwa pode ser vista aqui:
 
 * A facilidade de acessar o hardware e ter mais funçes nativas é outra vantagem dos nativos, mas que veem sendo quebrada, já que as principais funcionalidades "nativas" ja veem sendo trazidas para os browser, mas ainda sim os aplicativos nativos tem mais facilidades quanto a isso.
 
+## Pré-requisitos para criar um Progressive Web App com Ionic(2.x ou 3.x)
 
+### 1-Node.js
+Instalar Node: [Node.js](https://nodejs.org/en/download)
+Após a instalação, abra o terminal e execute o seguinte comando para obter a versão mais recente do npm:
+```js
+npm install npm -g
+```
+### 2- Ionic2.x e Cordova
+Installar Ionic e Cordova: [Ionic e Cordova](http://ionicframework.com/docs/intro/installation/)
 
+```sudo npm install -g ionic cordova```
 
-## Como usar o pwa no server
-* É necessario instalar ionic v2 junto do cordova e uma versão do Node.js superior a 6.x, de preferencia para usar uma versão LTS.
-```npm install -g ionic cordova```
-  [Node.js](https://nodejs.org/en/download)
-  
-* Depois de instalar o ionic é necessario fazer dois passos para ai sim poder ver a aplicação no servidor
+Para adicionar globalmente é recomentado usar "sudo", caso contrario, só excluir o "sudo" antes do npm.
 
-
-* FBaixar e instalar as dependências:
-
-
+### 3 - Instalando as dependencias
+Faça a instalação das dependendias do Package.json com o 
 ```npm install```
 
+Depois é necessario a criação de um diretorio 
+```www```
 
-* Depois é necessario criar uma pasta www no diretorio principal.
+### 4 - Subindo a aplicação local
+Para subir a aplicação de forma local basta usar o comando 
+``` ionic serve```
 
+### 5 - Firebase
+Essa aplicação foi online por meio do [firebase](https://firebase.google.com/), uma boa forma de subir a aplicação, já que ele é gratuito, tem a integração com banco de dados e não precisa de um server node, como é o caso do heroku(que tambem não deixa de ser uma boa opção, apenas diferente da usada nesse projeto).
 
-* Acesse a aplicação usando ``` ionic serve``` ele vai subir um localhost para fazer o teste da aplicação.
+Em caso de dúvidas, entre em contato nos e-mails abaixo, tambem presentes no package.json:
 
+Caio Henrique Cristóvão <caio.cristovao@fcamara.com.br> ou <caiohcris@gmail.com> 
+
+Flavio Brognara <flavio.brognara@fcamara.com.br>
