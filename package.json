@@ -1,6 +1,6 @@
 {
-  "name": "ionic-hello-world",
-  "author": "Ionic Framework",
+  "name": "PoC_ProgressiveWebApp",
+  "author": "Caio henrique Cristóvão <caio.cristovao@fcamara.com.br>, Flavio Brognara<flavio.brognara@fcamara.com.br>",
   "homepage": "http://ionicframework.com/",
   "private": true,
   "scripts": {
@@ -43,5 +43,5 @@
     "ionic-plugin-keyboard"
   ],
   "cordovaPlatforms": [],
-  "description": "pwa-reddit: An Ionic project"
+  "description": "An Opensource project, it's a poc of a progressive web application, trying as much as possible native android and IOS functions in the browser!"
 }
