@@ -74,7 +74,7 @@ Para subir a aplicação de forma local basta usar o comando
 ### 5 - Firebase
 Essa aplicação foi online por meio do [firebase](https://firebase.google.com/), uma boa forma de subir a aplicação, já que ele é gratuito, tem a integração com banco de dados e não precisa de um server node, como é o caso do heroku(que tambem não deixa de ser uma boa opção, apenas diferente da usada nesse projeto).
 
-Em caso de dúvidas, entre em contato nos e-mails abaixo, tambem presentes no package.json:
+#### Em caso de dúvidas, entre em contato nos e-mails abaixo, tambem presentes no package.json:
 
 Caio Henrique Cristóvão <caio.cristovao@fcamara.com.br> ou <caiohcris@gmail.com> 
 
